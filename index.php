@@ -7,6 +7,38 @@
     <title>12 paskaita</title>
 </head>
 <body>
+    <?php
+    class KLientas {
+        public $vardas;
+        public $pavarde;
+        public $asmensKodas;
+        public $prisijungimoData;
+        public $adresas;
+        public $elPastas;
+
+        function nustatome_kintamuosius (){
+            $this -> vardas = "Vardenis";
+            $this -> pavarde = "Pavardenis";
+            $this -> asmensKodas = "123123";
+            $this -> prisijungimoData = "2021-08-11";
+            $this -> adresas = "Vilnius";
+            $this -> elPastas = "mail.com";
+    
+        }
+    }
+
+
+    
+
+    
+
+
+
+
+
+
+
+    ?>
     
 </body>
 </html>
